@@ -10,7 +10,7 @@ The application visualizes real-time stock data with trend analysis, moving aver
 **FEATURES**
 
 - Validated stock selection via dropdown
-- Interactive trend and volume charts
+- Interactive trend and volume charts in real time
 - 7D / 1M / 3M time range analysis 
 - Moving averages of 20 and 50 days
 - Price, percentage change, weekly & monthly returns
@@ -73,6 +73,7 @@ Q. How to Run Locally?
 **AUTHOR**
 
 Arghadeep Kundu
+
 
 
 
