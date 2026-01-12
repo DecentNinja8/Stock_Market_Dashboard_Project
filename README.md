@@ -31,6 +31,7 @@ TECH STACK
 PROJECT STRUCTURE
 
 Stock_Market_Dashboard_Project
+
 			|----index.html
 			|----style.css
 			|----script.js
@@ -76,6 +77,7 @@ FUTURE IMPROVEMENTS
 AUTHOR
 
 Arghadeep Kundu
+
 
 
 
