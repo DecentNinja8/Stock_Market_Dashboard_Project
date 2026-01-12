@@ -52,7 +52,7 @@ Q. How to Run Locally?
 
 5. You can also give your own name by replacing "ARGH" in h1 and title tag in index.html
 
-	<h1> "YOUR NAME" Stock Market Dashboard</h1>	 and	 <title> "YOUR NAME" Stock Dashboard</title>
+	<title> "YOUR NAME" Stock Dashboard</title> and <h1> "YOUR NAME" Stock Market Dashboard</h1>
 	
 ---------------------------------------------------------------------------------------
 
@@ -75,6 +75,7 @@ FUTURE IMPROVEMENTS
 AUTHOR
 
 Arghadeep Kundu
+
 
 
 
