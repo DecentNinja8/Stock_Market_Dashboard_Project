@@ -1,4 +1,5 @@
 PROJECT TITLE
+
 Stock Market Dashboard 
 
 A responsive and interactive stock market dashboard built using HTML, CSS, and JavaScript.  
@@ -73,4 +74,5 @@ FUTURE IMPROVEMENTS
 AUTHOR
 
 Arghadeep Kundu
+
 
