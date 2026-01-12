@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Argh's Stock Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>ARGH's Stock Market Dashboard</h1>
+    <p>Trends • Volume • Moving Averages</p>
+  </header>
+
+  <!-- Controls -->
+  <div class="controls">
+    <select id="symbol"></select>
+    <button id="favBtn" onclick="toggleFavorite()">☆ Favourite</button>
+  </div>
+
+  <!-- Range buttons -->
+  <div class="ranges">
+    <button onclick="setRange(7)">7D</button>
+    <button onclick="setRange(30)">1M</button>
+    <button onclick="setRange(90)">3M</button>
+  </div>
+
+  <p id="rangeLabel" class="range-label"></p>
+
+  <!-- Stats grid -->
+  <div class="stats-grid">
+    <div class="card">
+      <h3>Latest Price</h3>
+      <p id="latestPrice">—</p>
+    </div>
+    <div class="card">
+      <h3>Change</h3>
+      <p id="changePercent">—</p>
+    </div>
+    <div class="card">
+      <h3>Weekly Return</h3>
+      <p id="weeklyReturn">—</p>
+    </div>
+    <div class="card">
+      <h3>Monthly Return</h3>
+      <p id="monthlyReturn">—</p>
+    </div>
+  </div>
+
+  <!-- Trend & Volume grid -->
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>TREND</h3>
+      <canvas id="priceChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>VOLUME</h3>
+      <canvas id="volumeChart"></canvas>
+      <p class="volume-note"> <strong>NOTE</strong>: Volume refers to how many shares of a stock were traded on a given day.</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
