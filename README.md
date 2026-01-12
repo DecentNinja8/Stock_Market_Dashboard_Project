@@ -50,9 +50,7 @@ Q. How to Run Locally?
 
 	const API_KEY = "YOUR API KEY HERE";
 
-5. You can also give your own name by replacing "ARGH" in h1 and title tag in index.html
-
-	<title> "YOUR NAME" Stock Dashboard</title> and <h1> "YOUR NAME" Stock Market Dashboard</h1>
+5. You can also give your own name by replacing "ARGH" to "YOUR NAME" in h1 and title tag in index.html
 	
 ---------------------------------------------------------------------------------------
 
@@ -75,6 +73,7 @@ FUTURE IMPROVEMENTS
 AUTHOR
 
 Arghadeep Kundu
+
 
 
 
