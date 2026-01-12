@@ -1,8 +1,9 @@
 PROJECT TITLE
+Stock Market Dashboard 
 
-Stock Market Dashboard
+A responsive and interactive stock market dashboard built using HTML, CSS, and JavaScript.  
+The application visualizes real-time stock data with trend analysis, moving averages, volume insights, and a professional dark UI.
 
-A responsive stock market dashboard built using HTML, CSS, JavaScript, and Chart.js to visualize real-time stock trends.
 ---------------------------------------------------------------------------------------
 
 FEATURES
@@ -28,11 +29,12 @@ TECH STACK
 
 PROJECT STRUCTURE
 
-Stock Market Project
-    ├── index.html
-    ├── style.css
-    ├── script.js
-    └── README.md
+Stock_Market_Dashboard_Project
+			|----index.html
+			|----style.css
+			|----script.js
+			|----README.md
+			
 ---------------------------------------------------------------------------------------
 
 SETUP INSTRUCTIONS
@@ -44,7 +46,12 @@ Q. How to Run Locally?
 3. Ensure internet connection for API data
 4. Replace the API_KEY in `script.js` with your own TwelveData API key.
 
-	const API_KEY = "YOUR_API_KEY_HERE";
+	const API_KEY = "YOUR API KEY HERE";
+
+5. You can also give your own name by replacing "ARGH" in h1 and title tag in index.html
+
+	<title> "YOUR NAME" Stock Dashboard</title>
+	<h1> "YOUR NAME" Stock Market Dashboard</h1>
 ---------------------------------------------------------------------------------------
 
 WORKING OF THE APPLICATION
@@ -66,3 +73,4 @@ FUTURE IMPROVEMENTS
 AUTHOR
 
 Arghadeep Kundu
+
