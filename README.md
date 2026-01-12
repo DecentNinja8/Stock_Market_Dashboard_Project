@@ -1,4 +1,4 @@
-PROJECT TITLE
+**PROJECT TITLE**
 
 Stock Market Dashboard 
 
@@ -7,7 +7,7 @@ The application visualizes real-time stock data with trend analysis, moving aver
 
 ---------------------------------------------------------------------------------------
 
-FEATURES
+**FEATURES**
 
 - Validated stock selection via dropdown
 - Interactive trend and volume charts
@@ -19,7 +19,7 @@ FEATURES
 - Dark professional dashboard UI
 ---------------------------------------------------------------------------------------
 
-TECH STACK
+**TECH STACK**
 
 - HTML5
 - CSS3 
@@ -28,7 +28,7 @@ TECH STACK
 - TwelveData API
 ---------------------------------------------------------------------------------------
 
-PROJECT STRUCTURE
+**PROJECT STRUCTURE**
 
 Stock_Market_Dashboard_Project
 
@@ -39,7 +39,7 @@ Stock_Market_Dashboard_Project
 			
 ---------------------------------------------------------------------------------------
 
-SETUP INSTRUCTIONS
+**SETUP INSTRUCTIONS**
 
 Q. How to Run Locally?
 
@@ -54,7 +54,7 @@ Q. How to Run Locally?
 	
 ---------------------------------------------------------------------------------------
 
-WORKING OF THE APPLICATION
+**WORKING OF THE APPLICATION**
 
 - User selects a stock from dropdown
 - App fetches market data from TwelveData API
@@ -63,16 +63,17 @@ WORKING OF THE APPLICATION
 
 ---------------------------------------------------------------------------------------
 
-FUTURE IMPROVEMENTS
+**FUTURE IMPROVEMENTS**
 
 - Add more stock exchanges
 - Add comparison between multiple stocks
 - Improve performance with caching
 ---------------------------------------------------------------------------------------
 
-AUTHOR
+**AUTHOR**
 
 Arghadeep Kundu
+
 
 
 
