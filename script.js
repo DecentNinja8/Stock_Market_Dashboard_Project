@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_API_KEY_HERE"; 
+const API_KEY = "af9730cb3d29478e82412a0c5140696e"; 
 let RANGE = 30;
 let priceChart, volumeChart;
 
@@ -194,3 +194,4 @@ async function getStock(){
     options:{scales:{x:{grid:{color:"rgba(255,255,255,0.1)"},ticks:{color:"#e5e7eb"}},y:{grid:{color:"rgba(255,255,255,0.1)"},ticks:{color:"#e5e7eb"}}},plugins:{legend:{labels:{color:"#e5e7eb"}}}}
   });
 }
+
